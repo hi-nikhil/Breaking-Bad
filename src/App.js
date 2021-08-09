@@ -57,6 +57,7 @@ function App() {
             <Search getQuery={(q) => SetQuery(q)} />
             <Table items={currentPosts} loading={isLoading} />
             <Pagination
+              currentPage={currentPage}
               postsPerPage={postsPerPage}
               totalPosts={items.length}
               paginate={paginate}

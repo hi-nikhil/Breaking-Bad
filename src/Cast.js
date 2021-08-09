@@ -30,7 +30,7 @@ function Cast({}) {
            <Header/>
            <Link to='/'>
             <div className="home_link">
-              <p>Home...</p>
+              <p>Home</p>
             </div>
             </Link>
            <Search getQuery={(q) =>setQuery(q) } />
