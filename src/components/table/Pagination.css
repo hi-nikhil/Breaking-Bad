@@ -1,0 +1,23 @@
+.pagination{
+    display: flex;
+   list-style: none;
+   margin-left: 37%;
+    margin-top: 10px;
+    padding-left: 50px;
+}
+.page-item{
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.pagination > li > a
+{
+   
+    color: #5A4181;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover
+{
+    color: #18bd4f;
+}
